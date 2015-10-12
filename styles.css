@@ -1,0 +1,107 @@
+/*
+==============================
+General Styles
+==============================
+*/
+body {
+  font-family: AvenirNext-Medium, Avenir, 'Helvetica Neue', Helvetica, Arial, sans;
+  background-image: url("https://raw.githubusercontent.com/Chuabacca/dsc-email/master/wood-background-darker.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #7D7977;
+}
+h1 {
+  font-size: 42px;
+  color: #554740;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 14px;
+  font-weight: 200;
+  color: #9D9A99;
+}
+hr {
+  width: 400px;
+  background-color: #9D9A99;
+  height: 1px;
+  border: 0;
+  margin: 50px auto 50px auto;
+}
+.clear {
+  clear: both;
+}
+/*
+==============================
+Header Section
+==============================
+*/
+#header {
+  background-color: rgba(25,25,25,.7); 
+  padding: 10px 0 10px 0;
+}
+#header img {
+  height: 50px;
+  width: 50px; 
+  margin: 0 auto;
+  display: block;
+}
+/*
+==============================
+Main Section
+==============================
+*/
+#main {
+  background-color: #d8d2cf;
+  width: 90%;
+  margin: 30px 5% 50px 5%;
+  text-align: center;
+  padding-top: 30px;
+}
+#avatar {
+  height: 75px;
+  width: auto;
+  border-radius: 100%;
+}
+#socialBox {
+  background-color: #554740;
+  padding-top: 10px;
+}
+.socialLogo {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+}
+.container {
+  width: 600px;
+  margin: 50px auto 30px auto;
+}
+.twoColumnContainer {
+  width: 600px;
+  margin: 0 auto 0 auto;
+}
+.twoColumnWide {
+  width: 700px;
+  margin: 0 auto 0 auto;
+}
+.columnLeft{
+  width: 280px;
+  padding: 0 10px 0 10px;
+  float: left;
+  text-align: center;
+}
+.columnRight{
+  width: 280px;
+  padding: 0 10px 0 10px;
+  float: right;
+  text-align: center;
+}
+#employment {
+  width: 700px;
+  text-align: left;
+  margin: 0 auto 50px auto;
+}
