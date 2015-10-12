@@ -70,38 +70,70 @@ Main Section
 #socialBox {
   background-color: #554740;
   padding-top: 10px;
+  text-decoration: none;
 }
 .socialLogo {
   height: 20px;
   width: 20px;
   margin: 5px;
+  text-decoration: none;
 }
 .container {
   width: 600px;
   margin: 50px auto 30px auto;
 }
 .twoColumnContainer {
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto 0 auto;
 }
 .twoColumnWide {
-  width: 700px;
+  width: 600px;
   margin: 0 auto 0 auto;
 }
 .columnLeft{
   width: 280px;
-  padding: 0 10px 0 10px;
   float: left;
   text-align: center;
 }
 .columnRight{
   width: 280px;
-  padding: 0 10px 0 10px;
   float: right;
   text-align: center;
 }
 #employment {
-  width: 700px;
+  max-width: 700px;
   text-align: left;
   margin: 0 auto 50px auto;
+}
+/*
+==============================
+Responsive Styles
+==============================
+*/
+@media only screen and (max-width: 770px) {
+	#main {
+  width: 100%;
+  margin: 30px 0 50px 0;
+  }
+  .container {
+    width: 90%;
+  }
+  #employment {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 600px) {
+.twoColumnWide {
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+.columnLeft{
+  width: 100%;
+  margin-bottom: 40px;
+
+}
+.columnRight{
+  width: 100%;
+
+	}
 }
