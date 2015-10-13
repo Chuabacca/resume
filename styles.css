@@ -35,6 +35,9 @@ hr {
 .clear {
   clear: both;
 }
+a {
+  text-decoration: none;
+}
 /*
 ==============================
 Header Section
