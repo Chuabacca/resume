@@ -50,6 +50,10 @@ Header Section
   margin: 0 auto;
   display: block;
 }
+#pdf {
+  color: #fff;
+  text-align: center;
+}
 /*
 ==============================
 Main Section
